@@ -1,0 +1,213 @@
+* {
+    padding: 0.1cm;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif
+}
+body {
+    background-image: url("drop.jpg");
+    background-size:cover;
+    border-color: yellow;
+    border-radius:5% ;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 45px; 
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.hero h1{
+    font-size: 35px;
+    letter-spacing: 1px; 
+    cursor: pointer;
+    color: yellow;
+    align-items:center;
+    letter-spacing: 2.5px;
+    font-size: 50px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h4{
+    color: antiquewhite;
+    
+}  
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+color: yellow;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-family: 'IBM Plex Mono', monospace;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    transition: .4s;
+}
+.Button {
+    background-color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    transition: transform .4s ;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    font-size: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.Button:hover{
+    transform: scale(1.5);
+    color: blue;}
+.About h1 {
+margin: 20px 0px 20px;
+font-size: 100px;
+font-family: 'IBM Plex Mono', monospace;
+}
+.About {
+    margin-left: 2cm;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border: 2cm 2cm 2cm 2cm;
+    padding: 2cm 2cm 2cm 2cm;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+.About h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.About span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-style:oblique;
+}
+.About aside {
+    position:relative;
+    writing-mode: vertical-lr;
+    color: yellow;
+    font-family: 'IBM Plex Mono', monospace;
+    text-orientation:sideways;
+    font-size: 150%;
+    background-color: black;
+    border-style:solid;
+    border-color: yellow;
+    float: right;
+    margin-right: -5%;
+    margin-top:-10%;
+    position: relative;
+    border-style:double;
+    border-radius: 2ch;
+    }
+.work {
+    color: blueviolet;
+}
+.grido {
+    margin: 1cm 1cm 1cm 1cm; 
+    padding-left:-1cm ;
+    padding-right: -1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    background-color: black;
+    display: flex;
+    /* grid-template-columns:40% 40% 40%; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aliceblue;
+    border: 0.3cm;
+    border-color: yellow;
+    font-size:170%;
+    border-style: solid;
+    border-radius: 1ch;
+    background-image: url("drop.jpg");
+    background-repeat:repeat;
+    background-size:cover;
+
+}
+.DO h1{
+    color: yellow;
+    padding-left: 35%;
+    padding-right:30%;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.grido h4 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.grido p {
+    font-family: 'IBM Plex Mono', monospace;
+}
+.Work h2 {
+    color: aliceblue;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.Resume h2 {
+    color:aliceblue;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.Contact h2 { 
+    color: aliceblue;
+    font-family: 'IBM Plex Mono', monospace;
+}
+footer {
+    display: inline;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    font-family: 'IBM Plex Mono', monospace;
+    text-shadow: 2.5cm;
+
+}
+form {
+    font-family: 'IBM Plex Mono', monospace;
+}
+footer h2 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+.Contact { 
+    margin: 1cm;
+    padding: 1cm;
+    border: 1cm;
+    border: 0.5cm;
+}
+.Work {
+    text-align: center;
+}
+.Resume {
+    text-align: center;
+}
+.Contact {
+    text-align: center;
+}
+.Skills {
+    text-align: center;
+    display: inline;
+    justify-content: space-between
+    ;
+    margin:0.25cm;
+    border: 0.25cm;
+    padding: 0.25cm;
+}
+footer h2 {
+    margin: 0.5cm;
+    padding: 0.5cm;
+    border: 0.5cm;
+    background-color: black;
+    border-radius: 1.5%;
+    border-color: yellow;
+    border-style:solid;
+}
